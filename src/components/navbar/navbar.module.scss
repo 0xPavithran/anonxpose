@@ -1,0 +1,13 @@
+.root {
+    margin: 30px;
+    overflow: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+}
+
+.button {
+    margin: 10px;
+    flex-direction: row;
+    color: #954E4E;
+}
