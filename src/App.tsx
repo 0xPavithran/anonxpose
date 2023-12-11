@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './App.module.scss';
-import AnonXposeLogo from './assets/Anonxpose.png';
+import AnonxposeLogo from './assets/Anonxpose.png'
 
 
 function App() {
@@ -8,14 +8,11 @@ function App() {
 
     return (
         <div className={styles.App}>
-            <img src={AnonXposeLogo} alt="AnonXpose Logo" className={styles.logo} />
-            <p id="img-display">Blockchain Investigation Agency</p>
-            
+            <img src={AnonxposeLogo} alt="" className={styles.logo} />
+            <h2 className={styles.h1}>Blockchain Investigation Agency</h2>
 
-            <h2>OPEN A CASE WITH AnonXpose</h2>
 
-            <div></div>
-            <button>CREATE CASE</button>
+
         </div>
     );
 }
