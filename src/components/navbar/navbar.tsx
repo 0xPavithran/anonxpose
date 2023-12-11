@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './navbar.module.scss';
+import {Routes,Route} from 'react-router-dom';
 
 export interface NavbarProps {
     className?: string;
@@ -12,10 +13,6 @@ export interface NavbarProps {
 export const Navbar = ({ className }: NavbarProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <button className={styles.button}>Investigator Portal</button>
-            <button className={styles.button}>About</button>
-            <button className={styles.button}>Blog</button>
-            <button className={styles.button}>Contact</button>
-        </div>
+            <nav className={styles.navbar}><a href="/home">Home</a> | <a href="/projects">Projects</a> | <a href="/about">About</a> | <a href="/contact.txs">Contact Us</a></nav></div>
     );
 };
