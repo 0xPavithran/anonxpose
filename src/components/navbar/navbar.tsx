@@ -13,6 +13,6 @@ export interface NavbarProps {
 export const Navbar = ({ className }: NavbarProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <nav className={styles.navbar}><a href="/home">Home</a> | <a href="/projects">Projects</a> | <a href="/about">About</a> | <a href="/contact.txs">Contact Us</a></nav></div>
+            <nav className={styles.navbar}><a href="/home">Home</a> | <a href="/projects">Investigator Dashboard</a> | <a href="/about">About</a> | <a href="/contact.txs">Contact</a></nav></div>
     );
 };
